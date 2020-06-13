@@ -292,7 +292,7 @@ footer .icon{
 		width: auto;
 			
 	}
-	header .hgroup{
+	header hgroup{
  	
 		width: auto;
 		display :block;
@@ -301,7 +301,7 @@ footer .icon{
 
 	#cv .colonne {   
 		display: block;
-        width: auto;   	
+                width: auto;   	
 		justify-content: center;
 		
 	}
@@ -339,13 +339,12 @@ footer .icon{
 		justify-content: center;
 		text-align: center;
 		width: auto;	
-	
 	}
+	
 	aside .paragraphes{
 		display: block;
 		overflow-wrap: break-word;
-		width: auto;	
-	
+		width: auto;		
 	}
 
 	footer {
