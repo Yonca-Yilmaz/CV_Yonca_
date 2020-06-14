@@ -280,11 +280,9 @@ footer .icon{
 @media all and (max-width: 1024px) {
 	header {   
 		
-        width: 100%;   	
+                width: 100%;   	
 		display: block;
 		justify-content: center;
-		text-align: center;
-		overflow-wrap: break-word;
 		
 	}
 	header .photo {
@@ -292,13 +290,7 @@ footer .icon{
 		width: auto;
 			
 	}
-	header hgroup{
- 	
-		width: auto;
-		display :block;
-			
-	}
-
+	
 	#cv .colonne {   
 		display: block;
                 width: auto;   	
