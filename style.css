@@ -302,7 +302,7 @@ footer .icon{
 
 	#cv .colonne {   
 		display: block;
-        width: auto;   	
+                width: auto;   	
 		justify-content: center;
 		
 	}
@@ -372,6 +372,5 @@ footer .icon{
         display: flex;
 		justify-content: space-between;
 		width: auto;
-	}
-    
+	}   
 }
