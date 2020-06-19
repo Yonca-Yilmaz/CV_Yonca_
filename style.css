@@ -1,315 +1,418 @@
 
- 
+   /* Général*/
 #page {
-   display: flex;
-   flex-direction: column;
-   width: 70%;
-   justify-content: center;
-
-   
-}
-
-
-body {
-	display: flex;
-	justify-content: center;
-	width: 100%;
-	font-family: Roboto;
-}
-
-.parcours{
 	display: flex;
 	flex-direction: column;
-	width: 65%;
-    overflow-wrap: break-word;
-	
-
-}
-
-
-#cv {
-	display: flex;
-	
-	width: 100%;
-	
-	
-		
-}
-
-.infos {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-   
-
-}
-
-
-#cv .colonne {
-	display: flex;
-	flex-direction: column;
-	width: 25%;
-	
-}
-
-
-
-header{
-      display: flex;
-      justify-content: space-between;
-      width: 100%;
-      
-      
-}
-.photo {
-	display: flex;
-	background-color: rgb(254, 202, 6);
-	justify-content: center;
-	width:25%;
-	
-	
-}
-
-header hgroup{
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-start;
 	width: 70%;
-	
-}
-
-
-.colonne{
-	width: 25%;
-	
-	display:flex;
-	justify-content: space-between;
-	flex-direction: column;
-	background-color: rgb(254, 202, 6);
-	overflow-wrap: break-word;
-}
-.infos{
-    width: 100%;
-    height:100%;
-}
-
-#cv .colonne .moi p {
-	display: flex;
 	justify-content: center;
-	flex-direction: column;
-	overflow-wrap: break-word;
-	text-align: center;
-	margin-top: 25%;
-	   
-}
-.colonne .infos .contact{
-	margin-top: 10%;
-}
-.colonne .infos .moi{
-	height: 70%;
-}
-
-
-footer #reco {
-	margin-left: 2%;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	width: 65%;
-	
-	}
-
-footer #reco .noms {
-
-	    
-		display: flex;
-		justify-content: center;
-		justify-content: space-between;
-		padding: 10%;
-		
-		width: 100%;
-		
-		}
-footer {
-	width: 100%;
-	display: flex;
-}
-
-#f h2 i {
-	color: rgb(254, 202, 6);
-
-    
-}
-#e h2 i {
-	color: rgb(254, 202, 6);
-
-    
-}
-footer h2 i {
-	color: rgb(254, 202, 6);
-
-    
-}
-footer #reco h2 {
-	font-family: Roboto;
-	font-size: 20px;
-	font-weight: bold;
-	border-bottom: 2px solid rgb(254, 202, 6);
    
-}
-
-.parcours aside {
-	
-	display: flex;
-	margin-left: 0.83em;
-	
-}
-
+ }
  
-#cv .colonne .contact {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
-
-}
  
-.parcours h2 {
-	font-size: 20px;
-	border-bottom: 2px solid rgb(254, 202, 6);
-	margin-left: 0.83em;	 
+ body {
+	 display: flex;
+	 justify-content: center;
+	 width: 100%;
+	 font-family: 'Roboto';
+ }
+ 
+ .parcours{
+	 display: flex;
+	 flex-direction: column;
+	 width: 65%;
+	 overflow-wrap: break-word;
+	 
+ }
+ 
+ 
+ #cv {
+	 display: flex;
+	 
+	 width: 100%;
+			 
+ }
+ 
+ .infos {
+	 display: flex;
+	 flex-direction: column;
+	 justify-content: space-between;
 	
-}
-
-h3 {
-	width: 100%;
-	color:rgb(173, 145, 32);
-	background-color: rgb(64, 64, 64);
-	text-align: center;
-	font-size: 25px;
-}
-
-
-aside .date {
-	width: 30%;
-    font-weight: normal;	
-}
-
-aside .paragraphes {
-
-	width: 50%;
-	margin-left: 10%;
-	overflow-wrap: break-word;
-	
-}
-.contact p {
-	margin-left: 10%;
-}
-
-
-header h2 span {
-	border-bottom: 2px solid rgb(254, 202, 6);
+ 
+ }
+ 
+ 
+ #cv .colonne {
+	 display: flex;
+	 flex-direction: column;
+	 width: 25%;
+	 
+ }
+ 
+ 
+ 
+ header{
+	   display: flex;
+	   justify-content: space-between;
+	   width: 100%;
+	   
+	   
+ }
+ .photo {
+	 display: flex;
+	 background-color: rgb(254, 202, 6);
+	 justify-content: center;
+	 width:25%;
+	 
+	 
+ }
+ 
+ header hgroup{
+	 display: flex;
+	 flex-direction: column;
+	 justify-content: flex-start;
+	 width: 70%;
+	 
+ }
+ 
+ 
+ .colonne{
+	 width: 25%;
+	 
+	 display:flex;
+	 justify-content: space-between;
+	 flex-direction: column;
+	 background-color: rgb(254, 202, 6);
+	 overflow-wrap: break-word;
+ }
+ .infos{
+	 width: 100%;
+	 height:100%;
+ }
+ 
+ #cv .colonne .moi p {
+	 display: flex;
+	 justify-content: center;
+	 flex-direction: column;
+	 overflow-wrap: break-word;
+	 text-align: center;
+	 margin-top: 25%;
 		
-}
-hgroup h1 span {
-	color: rgb(254, 202, 6);
-}
-
-hgroup h1{
-	font-weight: normal;
-	font-size: 40px;
-}
-hgroup h2{
-	font-weight: normal;
-}
-
-h4 {
+ }
+ .colonne .infos .contact{
+	 margin-top: 10%;
+ }
+ .colonne .infos .moi{
+	 height: 70%;
+	 
+ }
  
-  font-size: 15px;
-  font-weight: bold;
-}
-
-h5 {
+ 
+ footer #reco {
+	 margin-left: 2%;
+	 display: flex;
+	 flex-direction: column;
+	 justify-content: space-between;
+	 width: 65%;
+	 
+	 }
+ 
+ footer #reco .noms {
+ 
+		 
+		 display: flex;
+		 justify-content: center;
+		 justify-content: space-between;
+		 padding: 10%;
+		 
+		 width: 100%;
+		 
+		 }
+ footer {
+	 width: 100%;
+	 display: flex;
+ }
+ 
+ #f h2 i {
+	 color: rgb(254, 202, 6);
+ 
+	 
+ }
+ #e h2 i {
+	 color: rgb(254, 202, 6);
+ 
+	 
+ }
+ footer h2 i {
+	 color: rgb(254, 202, 6);
+ 
+	 
+ }
+ footer #reco h2 {
+	 font-family: 'Roboto';
+	 font-size: 20px;
+	 font-weight: bold;
+	 border-bottom: 2px solid rgb(254, 202, 6);
+	
+ }
+ 
+ .parcours article {
+	 
+	 display: flex;
+	 margin-left: 0.83em;
+	 
+ }
+ 
   
-  font-size: 15px;
-  font-weight: normal;
+ #cv .colonne .contact {
+	 display: flex;
+	 flex-direction: column;
+	 justify-content: space-around;
+ 
+ }
   
-
-}
-
-.date i{
-	color: rgb(254, 202, 6);
-	font-size: 10px;
-	font-weight: bold;
-}
-
-
-footer .icon p i{
-	
-	font-size: 40px;
-	border: 1px solid;
-	border-radius: 50%;
-	padding: 3%;
-	justify-content: space-between;
-	
-}
-
-.icon .loisirs p{
-	display: flex;
-	justify-content: space-between;
-	padding: 2%;
-	
-}
-
-
-
-footer .icon{
-	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
-    width: 25%;
-	margin-top: 0%;
-	background-color: rgb(254, 202, 6);
-}
-
-.fas fa-circle{
-	font-weight: bold;
-}
-
-.fas fa-dot-circle{
-	font-weight: normal;
-}
-
-.photo img {
-	font-size: 40px;
-	 border : 2px solid black;
-     border-radius: 50%;
-}
-
-@media all and (max-width: 1024px) {
+ .parcours h2 {
+	 font-size: 20px;
+	 border-bottom: 2px solid rgb(254, 202, 6);
+	 line-height: 2em;
+	 margin-left: 0.83em;	 
+	 
+ }
+ 
+ h3 {
+	 width: 100%;
+	 color:rgb(173, 145, 32);
+	 background-color: rgb(64, 64, 64);
+	 text-align: center;
+	 font-size: 25px;
+ }
+ 
+ 
+ article .date {
+	 width: 30%;
+	 font-weight: normal;	
+ }
+ 
+ article .paragraphes {
+ 
+	 width: 50%;
+	 margin-left: 10%;
+	 overflow-wrap: break-word;
+	 
+ }
+ .contact p {
+	 margin-left: 10%;
+ }
+ 
+ 
+ header h2 span {
+	 border-bottom: 2px solid rgb(254, 202, 6);
+		 
+ }
+ hgroup h1 span {
+	 color: rgb(254, 202, 6);
+ }
+ hgroup {
+	 line-height: 1em;
+ }
+ hgroup h1{
+	 font-weight: normal;
+	 font-size: 40px;
+ }
+ hgroup h2{
+	 font-weight: normal;
+ }
+ 
+ h4 {
+  
+   font-size: 15px;
+   font-weight: bold;
+ }
+ 
+ h5 {
+   
+   font-size: 15px;
+   font-weight: normal;
+   
+ 
+ }
+ 
+ .date i{
+	 color: rgb(254, 202, 6);
+	 font-size: 10px;
+	 font-weight: bold;
+ }
+ 
+ 
+ footer .icon p i{
+	 
+	 font-size: 40px;
+	 border: 1px solid;
+	 border-radius: 50%;
+	 padding: 3%;
+	 justify-content: space-between;
+	 
+ }
+ 
+ .icon .loisirs p{
+	 display: flex;
+	 justify-content: space-between;
+	 padding: 2%;
+	 
+ }
+ 
+ 
+ 
+ footer .icon{
+	 display: flex;
+	 flex-direction: column;
+	 justify-content: space-around;
+	 width: 25%;
+	 margin-top: 0%;
+	 background-color: rgb(254, 202, 6);
+ }
+ 
+ .fas fa-circle{
+	 font-weight: bold;
+ }
+ 
+ .fas fa-dot-circle{
+	 font-weight: normal;
+ }
+ 
+ .photo img {
+	 font-size: 40px;
+	  border : 2px solid black;
+	  border-radius: 50%;
+ }
+ 
+ li{
+  list-style-type: none;
+ }
+ 
+ 
+  /* Version smartphone*/
+ @media all and (max-width: 600px) {
+	 header {   
+		 
+		 width: 100%;   	
+		 display: block;
+		 justify-content: center;
+ 
+	 }
+	 
+	 header .photo {
+	  
+		 width: auto;
+			 
+	 }
+ 
+	 #cv .colonne {   
+		 display: block;
+		 width: auto;   	
+		 justify-content: center;
+		 
+	 }
+	 .moi{
+		line-height: 2em;
+	 }
+ 
+	 #page {   
+		 
+		 width: 90%; 	
+		 display: block;
+		 overflow-wrap: break-word;
+		 flex-direction: column-reverse;
+	 }
+ 
+ 
+	 #cv {   
+		 
+		 width: 100%;   	
+		 flex-direction: column-reverse;
+		 justify-content: center;
+		 overflow-wrap: break-word;
+	 }
+ 
+	 .parcours {
+		 display: block;
+		 width: 100%;
+	 
+	 }
+	 .parcours article {
+		 flex-direction: column;
+		 width: 100%;
+	 
+	 
+	 }
+	 article .date{
+		 display: block;
+		 justify-content: center;
+		 text-align: center;
+		 width: auto;	
+	 
+	 }
+	 article .paragraphes{
+		 display: block;
+		 overflow-wrap: break-word;
+		 width: auto;	
+	 
+	 }
+ 
+	 footer {
+		 margin-top: 0px;
+		 flex-direction: column;
+		 width: 100%
+	 }
+	 footer .icon {
+		 
+		 display: block;
+		 flex-direction: column;
+		 width: 100%
+	 }
+	 footer #reco {
+	 
+		 display: block;
+		 justify-content: space-between;
+		 width: auto;
+		 flex-direction: column-reverse;
+	 }
+	 footer #reco .noms {
+	 
+		 display: flex;
+		 justify-content: space-between;
+		 width: auto;
+	 }
+	 
+ }
+ /* Version tablette*/
+ @media all and (max-width: 1024px) {
 	header {   
 		
-        width: 100%;   	
+		width: 100%;   	
 		display: block;
 		justify-content: center;
 
 	}
 	
 	header .photo {
- 	
+	 
 		width: auto;
 			
 	}
 
 	#cv .colonne {   
 		display: block;
-                width: auto;   	
+		width: auto;   	
 		justify-content: center;
 		
 	}
+	.moi{
+		line-height: 2em;
+	 }
 
 	#page {   
 		
-        width: 90%; 	
+		width: 90%; 	
 		display: block;
 		overflow-wrap: break-word;
 		flex-direction: column-reverse;
@@ -318,7 +421,7 @@ footer .icon{
 
 	#cv {   
 		
-        width: 100%;   	
+		width: 100%;   	
 		flex-direction: column-reverse;
 		justify-content: center;
 		overflow-wrap: break-word;
@@ -329,20 +432,20 @@ footer .icon{
 		width: 100%;
 	
 	}
-	.parcours aside {
+	.parcours article {
 		flex-direction: column;
 		width: 100%;
 	
 	
 	}
-	aside .date{
+	article .date{
 		display: block;
 		justify-content: center;
 		text-align: center;
 		width: auto;	
 	
 	}
-	aside .paragraphes{
+	article .paragraphes{
 		display: block;
 		overflow-wrap: break-word;
 		width: auto;	
@@ -354,7 +457,7 @@ footer .icon{
 		flex-direction: column;
 		width: 100%
 	}
-    footer .icon {
+	footer .icon {
 		
 		display: block;
 		flex-direction: column;
@@ -369,8 +472,9 @@ footer .icon{
 	}
 	footer #reco .noms {
 	
-        display: flex;
+		display: flex;
 		justify-content: space-between;
 		width: auto;
-	}   
+	}
+	
 }
