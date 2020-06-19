@@ -95,7 +95,6 @@
 	 flex-direction: column;
 	 overflow-wrap: break-word;
 	 text-align: center;
-	 margin-top: 25%;
 		
  }
  .colonne .infos .contact{
@@ -189,7 +188,7 @@
  
  article .date {
 	 width: 30%;
-	 font-weight: normal;	
+	 font-weight: bold;	
  }
  
  article .paragraphes {
@@ -309,7 +308,7 @@
 		 line-height: 3em;
 	 }
 	 hgroup h1{
-		 line-height:3em;
+		 line-height:1,5em;
 	 }
 	 #cv .colonne {   
 		 display: block;
@@ -359,7 +358,7 @@
 	 article .paragraphes{
 		 display: block;
 		 overflow-wrap: break-word;
-		 width: auto;	
+		 width: 100%;	
 	 
 	 }
  
