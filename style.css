@@ -305,7 +305,9 @@
 		 width: auto;
 			 
 	 }
- 
+         hgroup{
+		 line-height: 2em;
+	 }
 	 #cv .colonne {   
 		 display: block;
 		 width: auto;   	
